@@ -1,0 +1,17 @@
+{
+  "name": "acoounts_sem_react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "ALEXSANDER RIBEIRO",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "inquirer": "^10.1.8"
+  }
+}
