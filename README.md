@@ -1,6 +1,6 @@
 Utilizo algumas tecnologias nesse repositório para meus projetos.
 Principais são obviamente Node.js e Prisma ORM.
-Utilizo a ferramente JWT para autenticação de login, além de Bcrypt para senhas.
+Utilizo a ferramenta JWT para autenticação de login, além de Bcrypt para senhas.
 
 Utilizo Express.JS e Nest.js que são minha base.
 Além de mongodb e outros bancos de dados relacional.
