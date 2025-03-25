@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition;
+}
+
+.input {
+  @apply border border-gray-300 p-2 rounded-lg w-full;
+}
+table-container {
+  overflow-x: auto;
+  max-width: 100%;
+}
+.table th,
+.table td {
+  padding: 10px;
+  text-align: left;
+}

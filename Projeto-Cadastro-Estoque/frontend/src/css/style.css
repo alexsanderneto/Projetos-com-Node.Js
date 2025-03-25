@@ -1,0 +1,114 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+/* 🔹 Cabeçalho */
+header {
+  background: linear-gradient(to right, #2563eb, #1e3a8a);
+  padding: 20px;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* 🔹 Navegação */
+nav {
+  background-color: #2563eb;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: #dbeafe;
+}
+
+/* 🔹 Conteúdo Principal */
+main {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  width: 100%;
+}
+
+/* 📊 Estilização das Tabelas */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* 🔹 Rodapé */
+footer {
+  background-color: #1e293b;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 16px;
+  margin-top: 30px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+td input {
+  width: 100%;
+  box-sizing: border-box; /* Impede que o input quebre o layout */
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
